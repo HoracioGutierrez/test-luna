@@ -1,0 +1,28 @@
+.boton-crear{
+    width: 380px;
+    height: 50px;
+    margin-top: 50px;
+    border-radius: 3px;
+    background-color: black;
+    
+    color: white;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    margin-left: 135px;
+    margin-right: 135px;
+    cursor: pointer;
+    
+    
+}
+.boton-crear:hover{
+    background-color: gray;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    .boton-crear{
+        margin-left: 100px;
+        width: 320px;
+      
+    }
+}

@@ -1,0 +1,14 @@
+.profile{
+ display: flex;
+ align-items: center;
+ margin-bottom: 100px;
+ width: 90%;
+ gap: 40px ;
+   
+}
+
+
+
+.profile__title{
+    display: flex;
+}

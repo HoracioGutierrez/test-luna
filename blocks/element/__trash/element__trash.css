@@ -1,0 +1,11 @@
+.element__trash{
+    /* margin-bottom: 310px; */
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.element__trash:hover{
+   fill: red;
+}
