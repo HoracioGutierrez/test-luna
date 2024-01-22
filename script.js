@@ -10,7 +10,7 @@ function abrirCity(){
    
 }
 
-const botonCerrar= document.querySelector(".boton-cerrar")
+const botonCerrar= document.querySelector(".close-button")
 
 
 botonCerrar.addEventListener("click",()=>cerrarCity())
@@ -56,17 +56,17 @@ e.srcElement.offsetParent.remove()
 
 
 //funcion boton crear 
-const submitButton = document.querySelector(".boton-crear")
+const submitButton = document.querySelector(".create-button")
 
 submitButton.addEventListener("click",()=>cerrarCity())
 function crearCity(){
-    popUpCity.classList.add("boton-crear")
+    popUpCity.classList.add("create-button")
 }
 
 
 
 
-const inputName = document.querySelector("#nombre")
+const inputName = document.querySelector("#name")
 const inputProfesion = document.querySelector("#profesion")
 
 const profileName = document.querySelector("#profile-name")
