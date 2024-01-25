@@ -10,10 +10,10 @@ function abrirCity(){
    
 }
 
-const botonCerrar= document.querySelector(".close-button")
+const closeButton= document.querySelector(".close-button")
 
 
-botonCerrar.addEventListener("click",()=>cerrarCity())
+closeButton.addEventListener("click",()=>cerrarCity())
 
 function cerrarCity(){
     popUpCity.classList.add("item__form-disable")
