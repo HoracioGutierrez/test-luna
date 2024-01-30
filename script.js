@@ -21,32 +21,10 @@ function cerrarCity(){
 
 
 
-
-
-// Llamamos a imagen
-
-const imagen = document.querySelectorAll(".element__image")
-
-imagen.forEach((e)=>{
-e.addEventListener("click",(e)=>image(e))
-})
-
-function image(e){
-    const src= e.target.src
-    const popUpI = document.querySelector(".pop-upI")
-    
-    popUpI.classList.remove(".pop-upI-empty")
-
-
-    // capturo variable que complrtar
-    // asignar mvalor variable.src= src
-
-}
-
 //funcion eliminar trash
-const botonEliminar = document.querySelectorAll(".element__trash")
+const deleteButton = document.querySelectorAll(".element__trash")
 
-botonEliminar.forEach((e)=>{
+deleteButton.forEach((e)=>{
 e.addEventListener("click",(e)=>eliminar(e))
 })
 

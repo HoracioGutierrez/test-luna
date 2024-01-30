@@ -28,10 +28,9 @@
 @import url(./blocks/botones/create-button.css);
 @import url(./blocks/botones/close-button.css);
 
-@import url(./blocks/elements/pop-up/pop-upI.css);
 @import url(./blocks/element/__heart/element__heart-activo.css);
 
-/*@import url(./blocks/imagen/__grande/imagen__grande.css);*/
+
 
 
 @import url(./blocks/botones/close-button-image.css);
