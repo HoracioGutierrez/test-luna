@@ -6,4 +6,4 @@ Nombre del Proyecto: "Alrededor de los EE.UU."
  En este proyecto utlicé los conceptos que aprendí sobre JavaScript, haciendo uso de funciones para hacer que la página sea dinámica
  
  
-https://github.com/LunaLaham/web_project_around.git
+ https://lunalaham.github.io/web_project_around/
