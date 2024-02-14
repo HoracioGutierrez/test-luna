@@ -1,14 +1,12 @@
-.profile__info{
-color: white;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-cursor: pointer;
-
+.profile__info {
+  color: white;
+  font-family: "Inter";
+  cursor: pointer;
+  
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px){
-    .profile__info{
-       
-    
-        
-    }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .profile__info {
+    overflow: hidden;
+  }
 }

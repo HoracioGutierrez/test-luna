@@ -1,0 +1,6 @@
+.close__button {
+  position: absolute;
+  top: 20px;
+  left: 520px;
+  cursor: pointer;
+}

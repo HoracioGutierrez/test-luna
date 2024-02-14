@@ -1,19 +1,15 @@
-.profile{
- display: flex;
- margin-bottom: 100px;
- margin-right: 203px;
- width: 90%;
- gap: 40px ;
-   
+.profile {
+  display: flex;
+  margin-bottom: 100px;
+  margin-right: 203px;
+  width: 90%;
+  gap: 40px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px){
-    .profile{
-       display: flex;
-       
-    
-        
-    }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
 }
-
-
-

@@ -1,8 +1,8 @@
-.element__text{
-    /* width: 282px; */
-    height:80px;
-    background-color: white;
-    border-radius: 10px;
-    position: relative;
-    bottom: 5px;
+.element__text {
+  /* width: 282px; */
+  height: 80px;
+  background-color: white;
+  border-radius: 0px 0px 10px 10px;
+  position: relative;
+  bottom: 5px;
 }

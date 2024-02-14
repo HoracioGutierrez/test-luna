@@ -1,26 +1,20 @@
-.add__button h1{
-   color: white;
-   width: 150px;
-   height: 30px;
-   border: 3px solid white;
-   cursor: pointer;
-   display: flex;
-   justify-content: center;
-   padding-bottom: 20px;
-   
+.add__button h1 {
+  color: white;
+  width: 150px;
+  height: 30px;
+  border: 3px solid white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
-
-@media screen and (min-width: 320px) and (max-width: 768px){
-   .add__button{
-     display: flex;
-     align-items:self-end;
-     
-     
-   
-  
-   
-   }
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .add__button {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    
+  }
 }
-
-

@@ -13,7 +13,7 @@
 @import url(./blocks/elements/elements.css);
 @import url(./blocks/element/__image/element__image.css);
 @import url(./blocks/element/__text/element__text.css);
-@import url(./blocks/element/__text/__text2/element__text2.css);
+@import url(./blocks/element/__text/__text-dos/element__text-dos.css);
 @import url(./blocks/element/__heart/element__heart.css);
 @import url(./blocks/element/__trash/element__trash.css);
 @import url(./blocks/footer/footer.css);
@@ -25,30 +25,11 @@
 @import url(./blocks/item/__form/item__form-empty.css);
 @import url(./blocks/item/__form/item__form-filled.css);
 @import url(./blocks/campos/campos.css);
-@import url(./blocks/botones/create-button.css);
-@import url(./blocks/botones/close-button.css);
+@import url(./blocks/botones/create__button.css);
+@import url(./blocks/botones/close__button.css);
 
 @import url(./blocks/element/__heart/element__heart-activo.css);
 
+@import url(./blocks/botones/close__button-image.css);
 
-
-
-@import url(./blocks/botones/close-button-image.css);
-
-
-
-*{
-     padding: 0;
-     margin: 0;
-     font-family:"Inter";
-    }
-
-
-
-    body{
-        background-color: black;
-      
-    }
-
-  
-
+@import url(./blocks/vendor/fonts.css);

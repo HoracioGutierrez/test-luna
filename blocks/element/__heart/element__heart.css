@@ -1,11 +1,10 @@
-.element__heart{
-   position: relative;
-   left: 230px;
-   bottom: 25px;
-   cursor: pointer;
-      
+.element__heart {
+  position: relative;
+  left: 230px;
+  bottom: 25px;
+  cursor: pointer;
 }
 
-.element__heart:hover{
-   opacity: 50%;
+.element__heart:hover {
+  opacity: 50%;
 }
