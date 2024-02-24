@@ -8,8 +8,8 @@
   </head>
 
   <body>
-    <div class="main-page">
-      <header>
+    <div class="page">
+      <header class="header">
         <img class="header__logo" src="./images/Vector.png" alt="imagen logo" />
 
         <div class="header__line"></div>
@@ -24,12 +24,12 @@
         <div class="profile__information">
           <div class="profile__title">
             <h1 id="profile-name" class="profile__info">Jaques Costeau</h1>
-            <img class="edit__button" src="./images/EditButton.png" alt="" />
+            <img class="profile__button" src="./images/EditButton.png" alt="" />
           </div>
 
           <h2 id="profile-profesion" class="profile__info">Explorer</h2>
         </div>
-        <div class="add__button">
+        <div class="profile__add-button">
           <h1>+</h1>
         </div>
       </div>
@@ -165,15 +165,15 @@
         </div>
       </div>
 
-      <form id="profile-form" class="item__form item__form-disable">
+      <div class="popup form_disable">
+      <form id="profile-form" class="form">
         <img
-          class="close__button"
+          class="form__close-button"
           src="./images/CloseIcon.png"
           alt="boton de cerrar"
         />
 
-        <div class="item__form-empty"></div>
-        <h2>Editar Perfil</h2>
+        <h2 class="form__title">Editar Perfil</h2>
         <input
           id="name"
           class="form__input"
@@ -192,8 +192,9 @@
           maxlength="20"
           required
         />
-        <input class="create__button" type="submit" value="Crear" />
+        <input class="form__create-button" type="submit" value="Crear" />
       </form>
+    </div>
 
       <footer>
         <p class="footer">© 2023 Luna Laham</p>

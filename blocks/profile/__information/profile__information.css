@@ -2,9 +2,22 @@
   flex-basis: 700px;
 }
 
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .profile__information {
+   width: 100%;
+   margin-left: 80px;
+   flex-basis: 80px;
    
-    
   }
+}
+
+#profile-profesion{
+  text-align: center;
+  font-weight: 400;
+}
+
+#profile-name{
+  text-align: center;
+  margin-left: 30px;
 }

@@ -1,4 +1,4 @@
-.add__button h1 {
+.profile__add-button h1 {
   color: white;
   width: 150px;
   height: 30px;
@@ -10,10 +10,9 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .add__button {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+  .profile__add-button h1 {
+    width: 300px;
+    
     
     
   }

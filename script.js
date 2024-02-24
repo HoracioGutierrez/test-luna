@@ -1,20 +1,20 @@
 // Capturo botones y variables
-const botoCity = document.querySelector(".edit__button");
+const botoCity = document.querySelector(".profile__button");
 
-const popUpCity = document.querySelector(".item__form");
+const popUpCity = document.querySelector(".popup");
 
 botoCity.addEventListener("click", () => openCity());
 
 function openCity() {
-  popUpCity.classList.remove("item__form-disable");
+  popUpCity.classList.remove("form_disable");
 }
 
-const closeButton = document.querySelector(".close__button");
+const closeButton = document.querySelector(".form__close-button");
 
 closeButton.addEventListener("click", () => closeCity());
 
 function closeCity() {
-  popUpCity.classList.add("item__form-disable");
+  popUpCity.classList.add("form_disable");
 }
 
 //funcion eliminar trash
@@ -29,11 +29,11 @@ function eliminar(e) {
 }
 
 //funcion boton crear
-const submitButton = document.querySelector(".create__button");
+const submitButton = document.querySelector(".form__create-button");
 
 submitButton.addEventListener("click", () => closeCity());
 function crearCity() {
-  popUpCity.classList.add("create__button");
+  popUpCity.classList.add("form__create-button");
 }
 
 const inputName = document.querySelector("#name");
