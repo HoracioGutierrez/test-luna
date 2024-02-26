@@ -15,5 +15,6 @@
   .elements {
     display: flex;
     flex-direction: column;
+    
   }
 }
