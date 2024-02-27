@@ -10,5 +10,6 @@
   .element__image {
     object-fit: cover;
     width: 300px;
+    
   }
 }
