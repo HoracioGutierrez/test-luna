@@ -6,10 +6,4 @@
    
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
-   .element{
-      width: 50%;
-      margin-left: 50px;
-   }
-}
 
