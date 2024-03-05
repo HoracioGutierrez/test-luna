@@ -6,7 +6,7 @@ const popUpCity = document.querySelector(".popup");
 botoCity.addEventListener("click", () => openCity());
 
 function openCity() {
-  popUpCity.classList.remove("popup__disable");
+  popUpCity.classList.remove("popup_disable");
 }
 
 const closeButton = document.querySelector(".form__close-button");
@@ -14,7 +14,7 @@ const closeButton = document.querySelector(".form__close-button");
 closeButton.addEventListener("click", () => closeCity());
 
 function closeCity() {
-  popUpCity.classList.add("popup__disable");
+  popUpCity.classList.add("popup_disable");
 }
 
 //funcion eliminar trash
