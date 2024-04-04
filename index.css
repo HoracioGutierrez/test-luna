@@ -22,6 +22,7 @@
 @import url(blocks/page/page.css);
 @import url(blocks/form/__input/form__input.css);
 @import url(blocks/form/form.css);
+@import url(blocks/form/__profile/form__profile.css);
 @import url(blocks/popup/popup_disable.css);
 @import url(blocks/popup/popup_add.css);
 @import url(blocks/form/__title/form__title.css);
