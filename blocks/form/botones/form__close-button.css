@@ -4,3 +4,11 @@
   left: 1030px;
   cursor: pointer;
 }
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .form__close-button{
+    left: 480px;
+    top: 10px;
+  }
+}

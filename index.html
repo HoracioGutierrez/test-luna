@@ -33,139 +33,11 @@
           <h1>+</h1>
         </div>
       </div>
-
       <div class="elements">
-        <div class="element">
-          <img
-            class="element__image"
-            src="./images/kirill-pershin-1088404-unsplash.jpg"
-            alt="imagen valle de Yosemite"
-          />
-          <img
-            class="element__trash"
-            src="./images/Trash.svg"
-            alt="boton basura"
-          />
-          <div class="element__text">
-            <h2 class="element__text-dos">Valle de Yosemite</h2>
-            <img
-              class="element__heart"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-            <img
-              class="element__heart-activo"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-          </div>
         </div>
+   
 
-        <div class="element">
-          <img
-            class="element__image"
-            src="./images/imagen-muro-de-los-lamentos.jpg"
-            alt="imagen de Jerusalem"
-          />
-          <img
-            class="element__trash"
-            src="./images/Trash.svg"
-            alt="boton basura"
-          />
-          <div class="element__text">
-            <h2 class="element__text-dos">Jerusalem</h2>
-            <img
-              class="element__heart"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-          </div>
-        </div>
-
-        <div class="element">
-          <img
-            class="element__image"
-            src="./images/imagen-canada.jpg"
-            alt="imagen de Canadá"
-          />
-          <img
-            class="element__trash"
-            src="./images/Trash.svg"
-            alt="boton basura"
-          />
-          <div class="element__text">
-            <h2 class="element__text-dos">Canadá</h2>
-            <img
-              class="element__heart"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-          </div>
-        </div>
-
-        <div class="element">
-          <img
-            class="element__image"
-            src="./images/imagen-grindelwald.jpg"
-            alt="imagen de Grindevalth"
-          />
-          <img
-            class="element__trash"
-            src="./images/Trash.svg"
-            alt="boton basura"
-          />
-          <div class="element__text">
-            <h2 class="element__text-dos">Grindelvalth</h2>
-            <img
-              class="element__heart"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-          </div>
-        </div>
-        <div class="element">
-          <img
-            class="element__image"
-            src="./images/imagen-viena.jpg"
-            alt="imagen Viena"
-          />
-          <img
-            class="element__trash"
-            src="./images/Trash.svg"
-            alt="boton basura"
-          />
-          <div class="element__text">
-            <h2 class="element__text-dos">Viena</h2>
-            <img
-              class="element__heart"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-          </div>
-        </div>
-        <div class="element">
-          <img
-            class="element__image"
-            src="./images/imagen-florida.jpg"
-            alt="imagen Florida"
-          />
-          <img
-            class="element__trash"
-            src="./images/Trash.svg"
-            alt="boton basura"
-          />
-          <div class="element__text">
-            <h2 class="element__text-dos">Florida</h2>
-            <img
-              class="element__heart"
-              src="./images/Group.svg"
-              alt="boton de corazon"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="popup popup_disable">
+      <div class="popup form_profile popup_disable">
         <form id="profile-form" class="form">
          <img
             class="form__close-button"
@@ -178,7 +50,7 @@
            id="name"
             class="form__input"
             type="text"
-            placeholder="name"
+            placeholder="Nombre"
             minlength="3"
             maxlength="20"
             required
@@ -196,6 +68,43 @@
         </form>
       </div>
 
+      <div class="popup imagepopup popup_disable">
+         <img
+            class="imagePreview"
+            src=""
+           alt="boton de cerrar"
+          />
+      </div>
+      <div class="popup popupadd popup_disable">
+        <form id="profileadd-form" class="form">
+         <img
+            class="form__close-button"
+            src="./images/CloseIcon.png"
+           alt="boton de cerrar"
+          />
+
+          <h2 class="form__title">Agregar lugar nuevo</h2>
+          <input
+           id="nameToAdd"
+            class="form__input"
+            type="text"
+            placeholder="Titulo"
+            minlength="3"
+            maxlength="20"
+            required
+          />
+          <input
+           id="urlToadd"
+           class="form__input"
+           type="text"
+           placeholder="Imagen URL"
+           minlength="3"
+           maxlength="200"
+           required
+           />
+          <input class="form__create-button" type="submit" value="Save" />
+        </form>
+      </div>
       <footer>
         <p class="footer">© 2023 Luna Laham</p>
       </footer>
