@@ -89,7 +89,7 @@ initialCards.forEach((card) => {
 const botoCity = document.querySelector(".profile__button");
 const addbutton = document.querySelector(".profile__add-button");
 
-const popUpCity = document.querySelector(".popup.form_profile");
+const popUpCity = document.querySelector(".popup.form__profile");
 const popUpAdd = document.querySelector(".popup.popupadd");
 
 botoCity.addEventListener("click", () => openCity());
@@ -101,7 +101,7 @@ function openAdd() {
   popUpAdd.classList.remove("popup_disable");
 }
 
-const closeButton = document.querySelector(".form_profile .form__close-button");
+const closeButton = document.querySelector(".form__profile .form__close-button");
 closeButton.addEventListener("click", () => closeCity());
 function closeCity() {
   popUpCity.classList.add("popup_disable");
