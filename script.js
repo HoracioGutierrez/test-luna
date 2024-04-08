@@ -101,7 +101,7 @@ function openAdd() {
   popUpAdd.classList.remove("popup_disable");
 }
 
-const closeButton = document.querySelector(".popup.form__close-button");
+const closeButton = document.querySelector(".popup .form__close-button");
 closeButton.addEventListener("click", () => closeCity());
 function closeCity() {
   popUpCity.classList.add("popup_disable");
