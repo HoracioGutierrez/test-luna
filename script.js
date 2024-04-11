@@ -56,6 +56,7 @@ const createCard = (card) => {
   const textContainer = createEl("div", "element__text");
   const titleElement = createEl("h2", "element__text-dos");
   const heartElement = createEl("img", "element__heart");
+  
   const activeHeartElement = createEl("img", "element__heart-activo");
 
   imageElement.src = card.link;
